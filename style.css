@@ -46,10 +46,13 @@ nav .texte {
   justify-content: center;
   width: 200px;
   height: 300px;
-  box-shadow: 0px 0px 10px black;
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 400ms;
 }
 .menuContainer .menu .content:hover {
-  box-shadow: 0px 0px 20px black;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 .menuContainer .menu .content .titre,
 .menuContainer .menu .content .texte {
@@ -133,6 +136,74 @@ nav .texte {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.animation {
+  overflow: hidden;
+  box-shadow: 0px 0px 10px;
+}
+.animation:hover {
+  box-shadow: 0px 0px 20px;
+}
+
+@keyframes point {
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes point2 {
+  30% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes point3 {
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.point1 {
+  opacity: 0;
+  animation: point 2s linear 0s infinite;
+}
+
+.point2 {
+  opacity: 0;
+  animation: point2 2s linear 0s infinite;
+}
+
+.point3 {
+  opacity: 0;
+  animation: point3 2s linear 0s infinite;
+}
+
+.contact:hover {
+  animation: wigle 0.3s linear 0s alternate;
+}
+
+@keyframes wigle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
