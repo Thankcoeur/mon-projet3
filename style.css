@@ -119,7 +119,7 @@ nav .texte {
   color: #fdcb46;
   transform: scale(1);
   transition-property: transform;
-  transition-duration: 1000ms;
+  transition-duration: 500ms;
 }
 .prochainement .btn:hover {
   transform: scale(1.2);

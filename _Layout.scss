@@ -29,8 +29,10 @@ nav {
       width: 200px;
       height: 300px;
       box-shadow: 0px 0px 10px black;
+       
       &:hover {
         box-shadow: 0px 0px 20px black;
+        ;
       }
 
       .titre,
@@ -103,7 +105,7 @@ nav {
     color: $tc-main;
     transform : scale(1) ; 
     transition-property: transform ;
-    transition-duration : 1000ms ;
+    transition-duration : 500ms ;
     &:hover {
         transform : scale(1.2) ; 
 
@@ -132,5 +134,23 @@ align-items : center ;
 
 
 
+
+}
+
+
+//teste 
+
+.animation {
+transform :  scale(1);
+
+
+
+
+&:hover { 
+transform : scale(1.5);
+
+
+
+}
 
 }
