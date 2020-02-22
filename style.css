@@ -102,4 +102,37 @@ nav .texte {
   color: #42973c;
 }
 
+.prochainement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.prochainement .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #579c87;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fdcb46;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 1000ms;
+}
+.prochainement .btn:hover {
+  transform: scale(1.2);
+}
+
+.mention {
+  font-size: 20px;
+  height: 100px;
+  background-color: #579c87;
+  color: #fdcb46;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

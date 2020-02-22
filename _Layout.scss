@@ -21,7 +21,7 @@ nav {
   grid-template-rows: auto;
   grid-gap: 50px;
   .menu {
-      font-size: 20px;
+    font-size: 20px;
     @include item-center;
 
     .content {
@@ -82,13 +82,55 @@ nav {
 .menu-4 {
   .titre {
     @include mang;
-    @include texte-gradient(rgb(66,151,60),rgb(191,255,126)) ; 
+    @include texte-gradient(rgb(66, 151, 60), rgb(191, 255, 126));
   }
   .texte {
-
-    color : rgb(66,151,60) ; 
+    color: rgb(66, 151, 60);
   }
+}
+
+//footer
+
+.prochainement {
+  @include item-center;
+  margin-bottom: 50px ;
+  .btn {
+    @include item-center;
+    background-color: $bc-main;
+    width: 200px;
+    height: 40px;
+    border-radius : 10px ; 
+    color: $tc-main;
+    transform : scale(1) ; 
+    transition-property: transform ;
+    transition-duration : 1000ms ;
+    &:hover {
+        transform : scale(1.2) ; 
+
+
+
+    }
+  }
+}
+
+.mention {
+    font-size: 20px;
+height: 100px;
+background-color: $bc-main ;
+color: $tc-main ; 
+display: flex; 
+justify-content: space-around;
+align-items : center ; 
+.legal { 
+
+
+
+}
+.contact {
+    
 }
 
 
 
+
+}
