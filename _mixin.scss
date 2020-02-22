@@ -1,0 +1,25 @@
+@mixin item-center {
+    display : flex ; 
+    align-items: center;
+    justify-content: center ;  
+    
+    
+    }
+    
+    @mixin texte-gradient ($couleur1,$couleur2) {
+        background: -webkit-linear-gradient(0deg, $couleur1 0%, $couleur2 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    
+    
+    }
+    
+    @mixin grid($val1) {
+    display: grid ; 
+    grid-template-columns: $val1;
+    
+    
+    }
+
+    
+   

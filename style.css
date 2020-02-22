@@ -1,116 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@font-face {
+  font-family: "Segoe Print";
+  src: url("segoe.ttf") format("truetype");
+}
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   cursor: context-menu;
 }
 
+.body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
 nav {
-  color: rgb(253, 203, 70);
-  height: 100px;
-  background-color: rgb(87, 156, 135);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  background-color: #579c87;
+  height: 80px;
+  margin-bottom: 100px;
+}
+nav .texte {
+  color: #fdcb46;
+  font-size: 23px;
 }
 
-.mainContainer {
-  margin: auto;
-  width: 900px;
-  padding-top: 50px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.menuContainer {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   grid-gap: 50px;
 }
-.menu {
+.menuContainer .menu {
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.menu-container {
-  box-shadow: rgba(121, 121, 121, 0.35) 1px 0px 20px;
-
+.menuContainer .menu .content {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 335px;
+  justify-content: center;
   width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 10px black;
+}
+.menuContainer .menu .content:hover {
+  box-shadow: 0px 0px 20px black;
+}
+.menuContainer .menu .content .titre,
+.menuContainer .menu .content .texte {
+  text-align: center;
 }
 
-.menu-container:hover {
-  box-shadow: rgba(121, 121, 121, 0.35) 1px 0px 40px;
+.menu-1 .content {
+  background-color: #fcdfdb;
+}
+.menu-1 .titre {
+  font-family: "Zhi Mang Xing", sans-serif;
+}
+.menu-1 .texte {
+  font-family: "Segoe Print", sans-serif;
 }
 
-footer {
-
-    display : flex ;  
-    flex-direction: column ;
+.menu-2 .content {
+  background-color: #fff5fe;
+}
+.menu-2 .content .texte {
+  color: #c77412;
+}
+.menu-2 .content .titre {
+  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.prochainement {
-    padding-top: 40px;
-display: flex ;  
-align-items: center;
-justify-content: center ;  
-
-
-
-
+.menu-3 .texte {
+  font-family: "Segoe Print", sans-serif;
+  color: #0645e5;
+}
+.menu-3 .titre {
+  background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Zhi Mang Xing", sans-serif;
+}
+.menu-3 .titre:first-letter {
+  text-transform: uppercase;
 }
 
-.prochainement-item {
-    display: flex;
-    align-items: center;
-     justify-content: center;
-     color :rgb(253, 203, 70);
-     background-color: rgb(87, 156, 135) ;
-     width:250px; 
-     height: 70px;
-     border-radius : 10px ; 
-     padding : auto ;  
-     box-shadow: rgba(121, 121, 121, 0.35) 1px 0px 20px;
-     transform : scale(1) ;
-     transition : transform 400ms ;
-     margin-bottom: 150px;
- 
-
+.menu-4 .titre {
+  font-family: "Zhi Mang Xing", sans-serif;
+  background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-4 .texte {
+  color: #42973c;
 }
 
-.prochainement-item:hover{
-    box-shadow: rgba(121, 121, 121, 0.35) 1px 0px 40px;
-    transform : scale(1.1) ;
-
-}
-
-.mention {
-    opacity: 0.90;
-    width : 100% ; 
-position : fixed;
-bottom : 0px ; 
-left: 0px;
-margin-top: 40px;
-display : grid ; 
-grid-template-columns: repeat(3,1fr) ;
-grid-template-rows: auto ; 
-background-color: rgb(87, 156, 135) ; 
-grid-template-areas: "mention . contact" ;
-color:rgb(253, 203, 70); 
-height:70px;
-
-
-}
-
-.mention-legal  {grid-area: mention; }
-.mention-contact {
-
-grid-area: contact;
-
-}
-
-.flex-center {
-
-    display : flex;
-    align-items: center;
-    justify-content: center;
-}
+/*# sourceMappingURL=style.css.map */

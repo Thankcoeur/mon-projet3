@@ -1,0 +1,94 @@
+.body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+nav {
+  @include item-center;
+  background-color: $bc-main;
+  height: 80px;
+  margin-bottom: 100px;
+  .texte {
+    color: $tc-main;
+    font-size: 23px;
+  }
+}
+
+.menuContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  .menu {
+      font-size: 20px;
+    @include item-center;
+
+    .content {
+      @include item-center;
+      width: 200px;
+      height: 300px;
+      box-shadow: 0px 0px 10px black;
+      &:hover {
+        box-shadow: 0px 0px 20px black;
+      }
+
+      .titre,
+      .texte {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.menu-1 {
+  .content {
+    background-color: $bc-menu-1;
+  }
+  .titre {
+    @include mang;
+  }
+  .texte {
+    @include segeo;
+  }
+}
+
+.menu-2 {
+  .content {
+    background-color: $bc-menu-2;
+    .texte {
+      color: $tc-menu-2;
+    }
+    .titre {
+      @include texte-gradient(rgb(216, 133, 46), rgb(180, 141, 250));
+    }
+  }
+}
+
+.menu-3 {
+  .texte {
+    @include segeo;
+    color: rgb(6, 69, 229);
+  }
+  .titre {
+    @include texte-gradient(rgb(6, 69, 229), rgb(8, 135, 251));
+    @include mang;
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.menu-4 {
+  .titre {
+    @include mang;
+    @include texte-gradient(rgb(66,151,60),rgb(191,255,126)) ; 
+  }
+  .texte {
+
+    color : rgb(66,151,60) ; 
+  }
+}
+
+
+
