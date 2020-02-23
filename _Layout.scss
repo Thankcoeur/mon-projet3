@@ -101,7 +101,7 @@ nav {
   margin-bottom: 50px ;
    
   .btn {
-    margin-bottom:100px; 
+    margin-bottom:80px; 
     @include item-center;
     background-color: $bc-main;
     width: 200px;
@@ -127,7 +127,7 @@ nav {
   bottom: 0 ; 
   left: 0;
     font-size: 20px;
-height: 100px;
+height: 80px;
 background-color: $bc-main ;
 color: $tc-main ; 
 display: flex; 
@@ -228,13 +228,8 @@ to { transform : rotate(5deg)}
   span { float: right;
   padding-right: 10px;
   }
-
-  h2::before {
-    content :"";  
-    background-image: url();
-
-
-  }
+  
+  
 h1,h2 {
   
   text-align: center;
@@ -257,7 +252,33 @@ h1,h2 {
 .menu1 {
 @include mang;
 
+h2::before  {
+  display :block ; 
+  float: right;
+  content :"";  
+  height: 24.5px;
+  width :150px ;  
+  background-image: url('trait-menu1.svg');
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat:no-repeat ; 
 
+
+}
+
+h2::after  {
+  display :block ; 
+  float: left;
+  content :"";  
+  height: 24.5px;
+  width :150px ;  
+  background-image: url('trait-menu1.svg');
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat:no-repeat ; 
+
+
+}
 
 }
 

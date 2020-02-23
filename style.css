@@ -112,7 +112,7 @@ nav .texte {
   margin-bottom: 50px;
 }
 .prochainement .btn {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,7 +136,7 @@ nav .texte {
   bottom: 0;
   left: 0;
   font-size: 20px;
-  height: 100px;
+  height: 80px;
   background-color: #579c87;
   color: #fdcb46;
   display: flex;
@@ -220,6 +220,28 @@ nav .texte {
 .menuContainer span {
   float: right;
   padding-right: 10px;
+}
+.menuContainer h2::before {
+  display: block;
+  float: right;
+  content: "";
+  height: 24.5px;
+  width: 150px;
+  background-image: url("trait-menu1.svg");
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
+}
+.menuContainer h2::after {
+  display: block;
+  float: left;
+  content: "";
+  height: 24.5px;
+  width: 150px;
+  background-image: url("trait-menu1.svg");
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
 }
 .menuContainer h1, .menuContainer h2 {
   text-align: center;
