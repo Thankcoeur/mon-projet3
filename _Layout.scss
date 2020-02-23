@@ -15,7 +15,7 @@ nav {
   }
 }
 
-.menuContainer {
+.menusContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -99,7 +99,9 @@ nav {
 .prochainement {
   @include item-center;
   margin-bottom: 50px ;
+   
   .btn {
+    margin-bottom:100px; 
     @include item-center;
     background-color: $bc-main;
     width: 200px;
@@ -119,6 +121,11 @@ nav {
 }
 
 .mention {
+  opacity: 0.80;
+  width :100% ; 
+  position: fixed;
+  bottom: 0 ; 
+  left: 0;
     font-size: 20px;
 height: 100px;
 background-color: $bc-main ;
@@ -126,6 +133,8 @@ color: $tc-main ;
 display: flex; 
 justify-content: space-around;
 align-items : center ; 
+&:hover { opacity: 1;
+}
 .legal { 
 
 
@@ -193,7 +202,7 @@ animation :point3 2s linear 0s infinite   ;
 }
 
 
-.contact {
+.legal, .contact {
 
 &:hover {
 animation: wigle 0.3s linear 0s  alternate ;
@@ -209,6 +218,44 @@ animation: wigle 0.3s linear 0s  alternate ;
 
 from { transform : rotate(0deg)}
 to { transform : rotate(5deg)}
+
+
+
+}
+
+.menuContainer {
+  margin-bottom: 200px;
+  span { float: right;
+  padding-right: 10px;
+  }
+
+  h2::before {
+    content :"";  
+    background-image: url();
+
+
+  }
+h1,h2 {
+  
+  text-align: center;
+}
+
+.content {
+  padding :20px ; 
+  margin: auto;
+
+  height: auto;
+  width : 500px;
+  background-color : $bc-menu-1 ; 
+
+
+}
+
+
+} 
+
+.menu1 {
+@include mang;
 
 
 
