@@ -1,0 +1,62 @@
+footer {
+  cursor: default;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  .mention {
+
+    width: 100%;
+
+
+    font-size: 20px;
+    height: 80px;
+    background-color: #579c87;
+    color: #fdcb46;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mention:hover {
+    opacity: 1;
+  }
+
+  .animation {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px;
+  }
+
+  .animation:hover {
+    box-shadow: 0px 0px 20px;
+  }
+
+  .legal:hover, .contact:hover {
+    animation: wigle 0.3s linear 0s alternate;
+  }
+
+  @keyframes wigle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(5deg);
+    }
+  }
+
+
+}
+
+.block {
+
+  height: 90px;
+  width: 100%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.prochainement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.prochainement .btn {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #579c87;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fdcb46;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+
+.prochainement .btn:hover {
+  transform: scale(1.2);
+}
+
+@keyframes point {
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes point2 {
+  30% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes point3 {
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.point1 {
+  opacity: 0;
+  animation: point 2s linear 0s infinite;
+}
+
+.point2 {
+  opacity: 0;
+  animation: point2 2s linear 0s infinite;
+}
+
+.point3 {
+  opacity: 0;
+  animation: point3 2s linear 0s infinite;
+}

@@ -1,0 +1,97 @@
+.menusContainer {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.menusContainer .menu .content:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.menusContainer .menu .content .titre,
+.menusContainer .menu .content .texte {
+  text-align: center;
+}
+
+.menusContainer .menu .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 300px;
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 400ms;
+}
+
+.menu-1 .content {
+  background-color: #fcdfdb;
+}
+
+.menu-1 .titre {
+  font-family: "Zhi Mang Xing", sans-serif;
+}
+
+.menu-1 .texte {
+  font-family: "Segoe Print", sans-serif;
+}
+
+.menu-2 .content {
+  background-color: #fff5fe;
+}
+
+.menu-2 .content .texte {
+  color: #c77412;
+}
+
+.menu-2 .content .titre {
+  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-3 .texte {
+  font-family: "Segoe Print", sans-serif;
+  color: #0645e5;
+}
+
+.menu-3 .titre {
+  background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Zhi Mang Xing", sans-serif;
+}
+
+.menu-3 .titre:first-letter {
+  text-transform: uppercase;
+}
+
+.menu-4 .titre {
+  font-family: "Zhi Mang Xing", sans-serif;
+  background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-4 .texte {
+  color: #42973c;
+}
+
+.animation {
+  overflow: hidden;
+  box-shadow: 0px 0px 10px;
+}
+
+.animation:hover {
+  box-shadow: 0px 0px 20px;
+}

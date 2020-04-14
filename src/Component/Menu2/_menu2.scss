@@ -1,0 +1,31 @@
+.menu2 {
+
+  font-size: 12px;
+}
+
+.menu2 h2::before {
+  display: block;
+
+  float: right;
+  content: "";
+  height: 24.5px;
+
+  background-image: url("tblue1.svg");
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
+}
+
+.menu2 h2::after {
+
+  display: block;
+
+  float: left;
+  content: "";
+  height: 24.5px;
+
+  background-image: url("tblue1.svg");
+  background-position: center;
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
+}

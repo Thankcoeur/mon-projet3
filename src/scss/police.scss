@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
 @font-face {
   font-family: "Segoe Print";
   src: url("segoe.ttf") format("truetype");
 }
 
 @mixin mang {
-  font-family: 'Zhi Mang Xing',sans-serif ;  
+  font-family: 'Zhi Mang Xing', sans-serif;
 
 
 }
 
 @mixin segeo {
-  font-family:  "Segoe Print",sans-serif ; 
+  font-family: "Segoe Print", sans-serif;
 
 }

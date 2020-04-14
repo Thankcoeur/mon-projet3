@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gj36ey');
+  src:  url('fonts/icomoon.eot?gj36ey#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?gj36ey') format('truetype'),
+  url('fonts/icomoon.woff?gj36ey') format('woff'),
+  url('fonts/icomoon.svg?gj36ey#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-tblue1 .path1:before {
+  content: "\e900";
+  color: #00add4;
+}
+.icon-tblue1 .path2:before {
+  content: "\e901";
+  color: #f0d4c2;
+  margin-left: -1.77734375em;
+}
+
+
+
+@import "scss/base", "scss/police";
+
+@import "Component/footer/footer", "Component/header/header", "Component/MenusContainer/menusContainer", "Component/Prochainement/prochainement",
+
+"Component/Menu1/menu1","Component/Menu2/menu2","Component/Menu3/menu3","Component/Menu4/menu4";
