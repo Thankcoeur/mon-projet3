@@ -1,63 +1,66 @@
 .menuContainer {
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    .content {
+        width: 400px;
+    }
+    h1 {
+        padding: 20px;
+        margin: auto;
+        width: 400px;
+    }
+}
 
-  width: 50%;
-  margin: auto;
+.trait {
+    width: 100px;
+    height: 40px;
+    background-position: center center;
+    background-size: 100px 80px;
+}
 
-
-  .content {
-    width: 800px;
-
-
-  }
+.trait-content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .menuContainer span {
-  float: right;
-  padding-right: 10px;
+    float: right;
+    padding-right: 10px;
 }
 
-.menu1 h2::before {
-
-  color: #c67412ff;
-  display: block;
-  float: right;
-  content: "";
-  height: 24.5px;
-  width: 25%;
-  background-image: url("trait-menu1.svg");
-  background-position: center;
-  background-size: 150px 100px;
-  background-repeat: no-repeat;
-}
 .menu1 {
-
-  font-size: 12px;
-}
-.menu1 h2::after {
-  display: block;
-  float: left;
-  content: "";
-  height: 24.5px;
-  width: 25%;
-  background-image: url("trait-menu1.svg");
-  background-position: center;
-  background-size: 150px 100px;
-  background-repeat: no-repeat;
+    font-size: 12px;
 }
 
-.menuContainer h1, .menuContainer h2 {
-  text-align: center;
+.menuContainer h1,
+.menuContainer h2 {
+    text-align: center;
 }
 
 .menuContainer .content {
-
-  padding: 20px;
-  margin: auto;
-  height: auto;
-  width: 100%;
-  background-color: #fcdfdb;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #fcdfdb;
 }
 
 .menu1 {
-  font-family: "Zhi Mang Xing", sans-serif;
+    font-family: "Zhi Mang Xing", sans-serif;
+}
+
+.menu1 {
+    .apero .dessert .plats {}
+}
+
+.menu1 {
+    .trait {
+        background-image: url("/dist/trait-menu1.svg");
+    }
+    .h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+    }
 }
