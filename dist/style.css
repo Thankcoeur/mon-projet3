@@ -23,6 +23,10 @@
   transform: rotate(-180deg);
 }
 
+.translate {
+  transform: scaleX(-1);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -303,7 +307,6 @@ header nav .texte {
   padding: 20px;
   width: 100%;
   height: auto;
-  background-color: #fcdfdb;
 }
 
 .menu1 {
@@ -323,6 +326,12 @@ header nav .texte {
 .menu2 {
   font-size: 12px;
 }
+.menu2 h1 {
+  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .menu2 .apero {
   color: #c67412;
 }
@@ -339,7 +348,35 @@ header nav .texte {
   color: #6e4ccc;
 }
 .menu2 .dessert .trait {
-  background-image: url("/dist/t-orange.svg");
+  background-image: url("/dist/t-blue.svg");
+}
+
+.menu3 {
+  font-size: 12px;
+}
+.menu3 h1 {
+  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu3 .apero {
+  color: #c67412;
+}
+.menu3 .apero .trait {
+  background-image: url("/dist/t2b1.svg");
+}
+.menu3 .plats {
+  color: #a56799;
+}
+.menu3 .plats .trait {
+  background-image: url("/dist/t-violet.svg");
+}
+.menu3 .dessert {
+  color: #6e4ccc;
+}
+.menu3 .dessert .trait {
+  background-image: url("/dist/t-blue.svg");
 }
 
 /*# sourceMappingURL=style.css.map */

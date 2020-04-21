@@ -1,21 +1,27 @@
-                                .menu2 {
-                                    font-size: 12px;
-                                    .apero {
-                                        color: #c67412;
-                                        .trait {
-                                            background-image: url("/dist/t-orange.svg");
-                                        }
-                                    }
-                                    .plats {
-                                        color: #a56799;
-                                        .trait {
-                                            background-image: url("/dist/t-violet.svg");
-                                        }
-                                    }
-                                    .dessert {
-                                        color: #6e4ccc;
-                                        .trait {
-                                            background-image: url("/dist/t-orange.svg");
-                                        }
-                                    }
-                                }
+.menu2 {
+    h1 {
+        background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    font-size: 12px;
+    .apero {
+        color: #c67412;
+        .trait {
+            background-image: url("/dist/t-orange.svg");
+        }
+    }
+    .plats {
+        color: #a56799;
+        .trait {
+            background-image: url("/dist/t-violet.svg");
+        }
+    }
+    .dessert {
+        color: #6e4ccc;
+        .trait {
+            background-image: url("/dist/t-blue.svg");
+        }
+    }
+}
