@@ -269,9 +269,11 @@ header nav .texte {
   width: 400px;
 }
 .menuContainer .content {
+  padding: 20px;
   width: 400px;
 }
 .menuContainer h1 {
+  text-align: center;
   padding: 20px;
   margin: auto;
   width: 400px;
@@ -287,26 +289,6 @@ header nav .texte {
 .trait-content {
   display: flex;
   justify-content: space-around;
-}
-
-.menuContainer span {
-  float: right;
-  padding-right: 10px;
-}
-
-.menu1 {
-  font-size: 12px;
-}
-
-.menuContainer h1,
-.menuContainer h2 {
-  text-align: center;
-}
-
-.menuContainer .content {
-  padding: 20px;
-  width: 100%;
-  height: auto;
 }
 
 .menu1 {
@@ -355,28 +337,43 @@ header nav .texte {
   font-size: 12px;
 }
 .menu3 h1 {
-  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+  background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Zhi Mang Xing", sans-serif;
 }
 .menu3 .apero {
-  color: #c67412;
+  color: #0228dc;
 }
 .menu3 .apero .trait {
   background-image: url("/dist/t2b1.svg");
 }
 .menu3 .plats {
-  color: #a56799;
+  color: #0093ee;
 }
 .menu3 .plats .trait {
-  background-image: url("/dist/t-violet.svg");
+  background-image: url("/dist/t2b2.svg");
 }
 .menu3 .dessert {
-  color: #6e4ccc;
+  color: #229df9;
 }
 .menu3 .dessert .trait {
-  background-image: url("/dist/t-blue.svg");
+  background-image: url("/dist/t2b3.svg");
+}
+
+.menu4 {
+  font-family: "Zhi Mang Xing", sans-serif;
+}
+.menu4 h1 {
+  background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu4 .trait {
+  height: 60px;
+  background-image: url("/dist/t-vert.svg");
 }
 
 /*# sourceMappingURL=style.css.map */

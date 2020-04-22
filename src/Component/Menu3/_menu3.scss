@@ -1,27 +1,28 @@
 .menu3 {
     h1 {
-        background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+        background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
         background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Zhi Mang Xing", sans-serif;
     }
     font-size: 12px;
     .apero {
-        color: #c67412;
+        color: #0228dc;
         .trait {
             background-image: url("/dist/t2b1.svg");
         }
     }
     .plats {
-        color: #a56799;
+        color: #0093ee;
         .trait {
-            background-image: url("/dist/t-violet.svg");
+            background-image: url("/dist/t2b2.svg");
         }
     }
     .dessert {
-        color: #6e4ccc;
+        color:#229df9;
         .trait {
-            background-image: url("/dist/t-blue.svg");
+            background-image: url("/dist/t2b3.svg");
         }
     }
 }

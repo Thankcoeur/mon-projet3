@@ -3,9 +3,11 @@
     margin: auto;
     width: 400px;
     .content {
+        padding: 20px;
         width: 400px;
     }
     h1 {
+        text-align: center;
         padding: 20px;
         margin: auto;
         width: 400px;
@@ -24,25 +26,13 @@
     justify-content: space-around;
 }
 
-.menuContainer span {
-    float: right;
-    padding-right: 10px;
-}
 
-.menu1 {
-    font-size: 12px;
-}
 
-.menuContainer h1,
-.menuContainer h2 {
-    text-align: center;
-}
 
-.menuContainer .content {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-}
+
+
+
+
 
 .menu1 {
     font-family: "Zhi Mang Xing", sans-serif;
