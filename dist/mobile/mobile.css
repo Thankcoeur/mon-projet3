@@ -1,0 +1,99 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+.presentation  .container {
+background-image: url('https://www.athenaspahotel.com/media/cache/jadro_resize/rc/tnxrezCu1579080551/jadroRoot/medias/_a1a8429.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center ; width: 300px;height: 300px ;
+margin: auto;
+box-shadow: 0px 0px 5px 0px ;
+}
+.menu h1 {
+
+    text-align: center;
+}
+
+
+.menu h2 {
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px 0px ;
+    width : 100px; 
+    text-align: center;
+    margin : auto; 
+    margin-top: 20px;
+    background-color :rgba(0,0,0,0.75);
+    cursor: default;
+
+
+}
+
+.menu {
+
+        background-size: cover;
+font-size: 50%;
+
+box-shadow: 0px 0px 5px 0px ;
+margin: auto;
+width: 260px;
+padding: 20px ;
+margin-top: 70px;
+height: 400px;
+}
+
+.text-menu {
+
+    text-align: center;
+    margin-top: 50px;
+}
+.menu1 {
+    background-image: url('menu1.jpg');
+
+
+
+
+
+
+
+
+
+}
+.menu4 {
+
+    background-image: url('menu4.jpg');
+}
+.menu3 {
+
+    background-image: url('menu3.jpg');
+}
+
+.menu2 {
+
+    background-image: url('menu2.jpg');
+}
+
+.menu .content {
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px ;
+    background-color :rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 10px;
+
+    display: none;
+}
