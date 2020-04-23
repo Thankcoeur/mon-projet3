@@ -1,5 +1,8 @@
 .menu4 {
     font-family: "Zhi Mang Xing", sans-serif;
+    font-size: 8px;
+  
+ 
     h1 {
         
         background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
@@ -14,5 +17,16 @@
         background-image: url('/dist/t-vert.svg');
 
 
+    }  
+    
+    
+
+    h2 {
+        position: relative;
+        top :15px; 
+
+        font-size: 10px;
     }
+    
+    
 }

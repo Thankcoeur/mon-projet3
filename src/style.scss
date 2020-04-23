@@ -26,6 +26,13 @@
     transform: scaleX(-1);
 }
 
+span    {
+
+
+
+    float: right;
+}
+
 @import "scss/base",
 "scss/police";
 @import "Component/footer/footer",
