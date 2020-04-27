@@ -87,11 +87,35 @@ width: 100%;
 .menu1 {
     
     font-family: "Zhi Mang Xing", sans-serif;
+
+   
     
     .content {
 background-color: #fcdfdb;
 
 
+    }
+
+    .logo-container {
+        display: flex; 
+        align-content: center;
+        align-items: center;
+        width: 300px;
+
+        margin: auto;
+    }
+
+    .logo {
+        margin: auto;
+
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+
+
+
+
+        background-image: url('https://visualpharm.com/assets/744/Musical%20Notes-595b40b85ba036ed117da66f.svg');
     }
 }
 
@@ -101,7 +125,7 @@ background-color: #fcdfdb;
 
 .menu1 {
     .trait {
-        background-image: url("/dist/trait-menu1.svg");
+        background-image: url("trait-menu1.svg");
     }
     .h2 {
         display: flex;

@@ -364,9 +364,23 @@ a {
 .menu1 .content {
   background-color: #fcdfdb;
 }
+.menu1 .logo-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+.menu1 .logo {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("https://visualpharm.com/assets/744/Musical%20Notes-595b40b85ba036ed117da66f.svg");
+}
 
 .menu1 .trait {
-  background-image: url("/dist/trait-menu1.svg");
+  background-image: url("trait-menu1.svg");
 }
 .menu1 .h2 {
   display: flex;
@@ -398,19 +412,19 @@ a {
   color: #c67412;
 }
 .menu2 .apero .trait {
-  background-image: url("/dist/t-orange.svg");
+  background-image: url("t-orange.svg");
 }
 .menu2 .plats {
   color: #a56799;
 }
 .menu2 .plats .trait {
-  background-image: url("/dist/t-violet.svg");
+  background-image: url("t-violet.svg");
 }
 .menu2 .dessert {
   color: #6e4ccc;
 }
 .menu2 .dessert .trait {
-  background-image: url("/dist/t-blue.svg");
+  background-image: url("t-blue.svg");
 }
 
 .menu3 h2 {
@@ -427,19 +441,19 @@ a {
   color: #0228dc;
 }
 .menu3 .apero .trait {
-  background-image: url("/dist/t2b1.svg");
+  background-image: url("t2b1.svg");
 }
 .menu3 .plats {
   color: #0093ee;
 }
 .menu3 .plats .trait {
-  background-image: url("/dist/t2b2.svg");
+  background-image: url("t2b2.svg");
 }
 .menu3 .dessert {
   color: #229df9;
 }
 .menu3 .dessert .trait {
-  background-image: url("/dist/t2b3.svg");
+  background-image: url("t2b3.svg");
 }
 .menu3 .content {
   background-color: #edefef;
@@ -456,7 +470,7 @@ a {
 }
 .menu4 .trait {
   height: 60px;
-  background-image: url("/dist/t-vert.svg");
+  background-image: url("t-vert.svg");
 }
 .menu4 h2 {
   position: relative;
