@@ -184,6 +184,7 @@ a {
   background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 18px;
 }
 
 .menu-3 .texte {
@@ -207,6 +208,7 @@ a {
   background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 18px;
 }
 
 .menu-4 .texte {
