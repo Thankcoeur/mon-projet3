@@ -1,24 +1,74 @@
+.apero ,.plats ,.dessert {
+
+
+h2::after{
+content: '';
+display: block;
+width: 0px;
+border-bottom: 1px solid;
+transition: width 1s;
+
+
+
+
+
+
+}
+
+h2:hover::after {
+
+width: 100%;
+
+}
+
+
+}
+
+
+
+
+
+
 .menuContainer {
+
+    h2 {
+
+        font-size: 20px;
+        position: relative;
+        top:-3px;
+    }
+   
+   
     padding: 20px;
     margin: auto;
-    width: 400px;
+
     .content {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+       
+       justify-content: space-around;
+       
         padding: 20px;
-        width: 400px;
+        width: 600px;
+        margin: auto;
+        
+        font-size: 18px;
+        
     }
     h1 {
         text-align: center;
-        padding: 20px;
-        margin: auto;
-        width: 400px;
+        
+    
+    
     }
 }
 
 .trait {
-    width: 100px;
+    width: 25%;
     height: 40px;
     background-position: center center;
-    background-size: 100px 80px;
+    background-size: 100% 100%;
 }
 
 .trait-content {
@@ -35,6 +85,7 @@
 
 
 .menu1 {
+    
     font-family: "Zhi Mang Xing", sans-serif;
     
     .content {
@@ -57,5 +108,29 @@ background-color: #fcdfdb;
         align-items: center;
         justify-content: center;
         height: 40px;
+        
     }
+}
+
+
+@media all and (max-width :650px) {
+
+.trait {
+
+    display: none; 
+}
+.menuContainer {
+
+
+
+    .content {
+        height: auto;
+        width: 85vw;
+    }
+}
+
+
+
+
+
 }

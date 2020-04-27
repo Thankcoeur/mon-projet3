@@ -30,7 +30,21 @@ span    {
 
 
 
-    float: right;
+    display: block;
+    text-align: center;
+}
+
+
+.menuContainer {
+
+    p {
+
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-column-gap: 0.5em;
+      
+        
+    }
 }
 
 @import "scss/base",

@@ -1,20 +1,22 @@
 .menu3 {
 
+   h2 {
+
+   font-size: 15px;
+   
+   }
+
     h1 {
         background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
+        
         background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Zhi Mang Xing", sans-serif;
 
     }
-    h2 {
-        position: relative;
-    top :7px; 
-
-        font-size: 8px;
-    }
-    font-size: 12px;
+   
+    
     .apero {
         color: #0228dc;
         .trait {

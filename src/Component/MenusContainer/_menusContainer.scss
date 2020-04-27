@@ -1,8 +1,12 @@
 .menusContainer {
+  
+ 
   margin-bottom: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 400px;
+
+  grid-gap: 20px;
+  grid-row-gap: 50px;;
 }
 
 .menu {
@@ -20,10 +24,10 @@ color: black;
 
 }
 
-.menusContainer .menu .content:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
-}
+
+
+
+
 
 .menusContainer .menu .content .titre,
 .menusContainer .menu .content .texte {
@@ -31,14 +35,21 @@ color: black;
 }
 
 .menusContainer .menu .content {
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   transform: scale(1);
+  transition: opacity 0.5s,transform 0.5s;
   opacity: 1;
-  transition: transform 400ms;
+  
+}
+
+.menusContainer .menu .content:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
 .menu-1 .content {
@@ -101,4 +112,45 @@ color: black;
 
 .animation:hover {
   box-shadow: 0px 0px 20px;
+}
+
+
+@media all and (max-width :650px) {
+
+
+.menusContainer {
+
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+
+  
+
+    
+  
+}
+
+.menu {
+
+  margin-top: 50px;
+}
+
+
+}
+
+@media all and (max-width :400px) {
+
+.menusContainer {
+
+  .menu {
+
+    .content {
+      width: 85vw;
+
+
+
+    }
+  }
+}
+
 }
