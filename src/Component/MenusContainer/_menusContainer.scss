@@ -1,159 +1,132 @@
 .menusContainer {
-  
- 
-  margin-bottom: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  grid-gap: 20px;
-  grid-row-gap: 50px;;
+    .note {
+        background-image: url("https://visualpharm.com/assets/744/Musical%20Notes-595b40b85ba036ed117da66f.svg");
+        height: 50px;
+        width: 50px;
+        background-position: center;
+        margin: auto;
+    }
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-row-gap: 50px;
+    ;
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
-
-text-decoration: none;
-color: black;
-
+    text-decoration: none;
+    color: black;
 }
-
-
-
-
-
 
 .menusContainer .menu .content .titre,
 .menusContainer .menu .content .texte {
-  text-align: center;
+    text-align: center;
 }
 
 .menusContainer .menu .content {
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 400px;
-  transform: scale(1);
-  transition: opacity 0.5s,transform 0.5s;
-  opacity: 1;
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    transform: scale(1);
+    transition: opacity 0.5s, transform 0.5s;
+    opacity: 1;
 }
 
 .menusContainer .menu .content:hover {
-  transform: scale(1.1);
-  opacity: 0.5;
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 .menu-1 .content {
-  background-color: #fcdfdb;
+    background-color: #fcdfdb;
 }
 
 .menu-1 .titre {
-  font-family: "Zhi Mang Xing", sans-serif;
-  
+    font-family: "Zhi Mang Xing", sans-serif;
 }
 
 .menu-1 .texte {
-  font-family: "Segoe Print", sans-serif;
+    font-family: "Segoe Print", sans-serif;
 }
 
 .menu-2 .content {
-  background-color: #fff5fe;
+    background-color: #fff5fe;
 }
 
 .menu-2 .content .texte {
-  color: #c77412;
+    color: #c77412;
 }
 
 .menu-2 .content .titre {
-  background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 18px;
+    background: -webkit-linear-gradient(0deg, #d8852e 0%, #b48dfa 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
 }
 
 .menu-3 .texte {
-  font-family: "Segoe Print", sans-serif;
-  color: #0645e5;
+    font-family: "Segoe Print", sans-serif;
+    color: #0645e5;
 }
 
 .menu-3 .titre {
-  background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Zhi Mang Xing", sans-serif;
+    background: -webkit-linear-gradient(0deg, #0645e5 0%, #0887fb 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Zhi Mang Xing", sans-serif;
 }
 
 .menu-3 .titre:first-letter {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .menu-4 .titre {
-  font-family: "Zhi Mang Xing", sans-serif;
-  background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 18px;
+    font-family: "Zhi Mang Xing", sans-serif;
+    background: -webkit-linear-gradient(0deg, #42973c 0%, #bfff7e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
 }
 
 .menu-4 .texte {
-  color: #42973c;
+    color: #42973c;
 }
 
 .animation {
-  overflow: hidden;
-  box-shadow: 0px 0px 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px;
 }
 
 .animation:hover {
-  box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 20px;
 }
-
 
 @media all and (max-width :650px) {
-
-
-.menusContainer {
-
-  display: flex;
-  align-content: space-around;
-  flex-direction: column;
-
-  
-
-    
-  
-}
-
-.menu {
-
-  margin-top: 50px;
-}
-
-
+    .menusContainer {
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    .menu {
+        margin-top: 50px;
+    }
 }
 
 @media all and (max-width :400px) {
-
-.menusContainer {
-
-  .menu {
-
-    .content {
-      width: 85vw;
-
-
-
+    .menusContainer {
+        .menu {
+            .content {
+                width: 85vw;
+            }
+        }
     }
-  }
-}
-
 }

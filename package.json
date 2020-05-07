@@ -1,0 +1,26 @@
+{
+    "name": "mon-projet3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "html": "html-includes --watch",
+        "sass": "sass src/style.scss:dist/style.css --watch"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Thankcoeur/mon-projet3.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Thankcoeur/mon-projet3/issues"
+    },
+    "homepage": "https://github.com/Thankcoeur/mon-projet3#readme",
+    "devDependencies": {
+        "html-includes": "^4.2.0",
+        "sass": "^1.26.5"
+    }
+}

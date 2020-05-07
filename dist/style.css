@@ -127,6 +127,13 @@ header nav .texte {
   grid-gap: 20px;
   grid-row-gap: 50px;
 }
+.menusContainer .note {
+  background-image: url("https://visualpharm.com/assets/744/Musical%20Notes-595b40b85ba036ed117da66f.svg");
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  margin: auto;
+}
 
 .menu {
   display: flex;
